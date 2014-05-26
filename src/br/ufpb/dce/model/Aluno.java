@@ -6,6 +6,7 @@ public class Aluno {
 	private String cpf;
 	private String sobrenome;
 	private String dataNascimento;
+	private String matricula;
 	
 	public String getNome() {
 		return nome;
@@ -41,6 +42,18 @@ public class Aluno {
 
 	public int getId() {
 		return 1;
+	}
+
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
 	}	
+	
+	public String getMatricula(){
+		return matricula;
+	}
+
+	public int getVersao() {
+		return 0;
+	}
 
 }
